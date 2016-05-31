@@ -3,14 +3,17 @@
 int Current; // текущий элемент
 
 template<class Element>
+
 void AddElement(Element Elem); // добавляет вершину в цепь Маркова
 
 bool InitAdjacency(); // выполняется после добавления элементов
 
 template<class Element>
+
 Element *Next(int StartElement = -1); // делает проход с заданного элемента цепи. Если элемент не задан,
 										 // то используется предыдущий пройденный из переменной Current
 template<class Element>
+
 Element At(int Index); // возвращает элемент по его индексу
 
 bool UninitAdjacency(); // очистить матрицу смежности
