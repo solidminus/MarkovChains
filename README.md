@@ -20,3 +20,4 @@ bool PushAdjacency(int StringNum, int RawNum, double Probability); // запол
 int size(); // возвращает размер n матрицы смежности (n x n)
 
 void info(std::ostream &stream); // выводит в ofstream информацию о текущем состоянии цепи Маркова
+
